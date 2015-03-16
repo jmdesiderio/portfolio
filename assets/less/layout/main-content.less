@@ -1,3 +1,13 @@
 .main-content {
 	min-height: 100%;
+	margin: @small-header-height 0;
+
+	@media @tablet-up {
+		margin: @normal-header-height 0;
+	}
+
+	@media @desktop {
+		margin: @big-header-height 0;
+		padding: 20px;
+	}
 }
