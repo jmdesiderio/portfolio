@@ -661,9 +661,12 @@ small {
   border: 2px solid #969696;
   padding: 5px;
   background-color: #e3e3e3;
+  transition: border-color 1s ease, opacity 1s ease;
+  opacity: 0.75;
 }
 .portfolio-row .portfolio-item:hover {
-  border: 2px solid #000000;
+  border-color: #000000;
+  opacity: 1;
 }
 @media only screen and (min-width: 768px) {
   .portfolio-row {

@@ -5,9 +5,13 @@
 		border: 2px solid @light-gray;
 		padding: 5px;
 		background-color: @lighter-gray;
+		transition: border-color 1s ease,
+					opacity 1s ease;
+		opacity: 0.75;
 
 		&:hover {
-			border: 2px solid @black;
+			border-color: @black;
+			opacity: 1;
 		}
 
 	}
