@@ -1,18 +1,23 @@
 .portfolio-row {
 
+	.portfolio-item {
+		margin: 0 0 30px;
+		border: 2px solid @light-gray;
+		padding: 5px;
+		background-color: @lighter-gray;
+
+		&:hover {
+			border: 2px solid @black;
+		}
+
+	}
+
 	@media @tablet-up {
 		.justify();
 
 		.portfolio-item {
 			width: 32%;
 			margin: 10px 0;
-			border: 2px solid @light-gray;
-			padding: 5px;
-			background-color: @lighter-gray;
-
-			&:hover {
-				border: 2px solid @black;
-			}
 		}
 	}
 }
